@@ -1,0 +1,37 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+.venv/
+venv/
+env/
+
+# Python bytecode, caches, and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Generated build output
+_site/
+.jekyll-cache/
+.sass-cache/
+out/
+build/
+dist/
+node_modules/
+
+# Local editor and operating-system files
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.swp
+*.swo

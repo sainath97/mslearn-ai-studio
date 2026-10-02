@@ -58,7 +58,7 @@ def main():
             # Get a response using Responses API
             stream = openai_client.responses.create(
                         model=model_deployment,
-                        instructions="You are a helpful AI assistant that answers questions and provides concise information.",
+                        instructions="You are a helpful AI assistant that answers questions only about computers and provides concise information. If user asks a question outside of this domain, politely decline to answer.",
                         input=input_text,
                         previous_response_id=last_response_id,
                         stream=True
