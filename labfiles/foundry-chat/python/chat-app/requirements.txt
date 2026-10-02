@@ -3,3 +3,4 @@ aiohttp
 azure-identity
 openai
 streamlit
+psutil
